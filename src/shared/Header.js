@@ -11,7 +11,6 @@ const Header = () => {
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <Link to="/" aria-label="Company" class="inline-flex items-center">
-          
             <img class=" h-8 w-8 text-teal-400" src={logo} alt="" />
             {/* <svg
               viewBox="0 0 24 24"
@@ -230,6 +229,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <hr class="h-px bg-gray-200 border-none my-7 dark:bg-gray-700" />
     </div>
   );
 };

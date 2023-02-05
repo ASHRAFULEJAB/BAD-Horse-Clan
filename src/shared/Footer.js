@@ -5,7 +5,8 @@ import logo from "../assets/images/horseimages.jfif";
 const Footer = () => {
   return (
     <div>
-      <footer class="flex justify-center px-4 text-gray-800 bg-white dark:text-white dark:bg-gray-900">
+      <footer class="flex justify-center px-4 text-gray-800 bg-white dark:text-white
+       dark:bg-black">
         <div class="container px-6 py-6">
           <h1 class="text-lg font-bold text-center lg:text-2xl">
             Subscribe for more!!
