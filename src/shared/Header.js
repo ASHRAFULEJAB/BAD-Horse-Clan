@@ -33,7 +33,7 @@ const Header = () => {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link
-                to="/"
+                to="/award"
                 aria-label="Our product"
                 class="font-medium tracking-wide
                  text-gray-100 transition-colors duration-200 hover:text-teal-400 text-3xl"
@@ -43,7 +43,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/wallet"
                 aria-label="Our product"
                 class="font-medium tracking-wide
                  text-gray-100 text-3xl transition-colors duration-200 hover:text-teal-400"
@@ -53,7 +53,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/profile"
                 aria-label="Product pricing"
                 class="font-medium tracking-wide text-3xl text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
@@ -62,7 +62,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/about"
                 aria-label="About us"
                 class="font-medium tracking-wide text-3xl text-gray-100 transition-colors duration-200 hover:text-teal-400"
               >
@@ -162,7 +162,7 @@ const Header = () => {
                     <ul class="space-y-4 ">
                       <li>
                         <Link
-                          to="/"
+                          to="/award"
                           aria-label="Our product"
                           class="font-medium tracking-wide text-3xl text-gray-200 
                           transition-colors duration-200 hover:text-purple-400"
@@ -172,7 +172,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="/"
+                          to="/wallet"
                           aria-label="Our product"
                           class="font-medium tracking-wide text-3xl text-gray-200 transition-colors duration-200 hover:text-purple-400"
                         >
@@ -181,7 +181,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="/"
+                          to="/profile"
                           aria-label="Product pricing"
                           class="font-medium tracking-wide
                           text-3xl text-gray-200 transition-colors duration-200 hover:text-purple-400"
@@ -191,7 +191,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="/"
+                          to="/about"
                           aria-label="About us"
                           class="font-medium tracking-wide text-3xl 
                            text-gray-200 transition-colors duration-200 hover:text-purple-400"
